@@ -7,13 +7,33 @@ This repository documents my docker-based OpenCTI deployment on Ubuntu for threa
 - Docker & Docker Compose
 
 ## Overview
-OpenCTI is an open-source Threat Intelligence Platform used to centralize, correlate, and contextualize threat intelligence data.
+OpenCTI is an open-source Threat Intelligence Platform used to centralize, correlate, and contextualize threat intelligence data. I ised OpenCTI to explore the fundamentals of cyber threat intelligence, including threat actors, indicators of compromise (IOCs), and intelligence platforms. The focus was on understanding how raw threat data is collected, structured, and transformed into actionable intelligence for security operations.
 
 ## Setup Summary
-- Installed Docker and Docker Compose
-- Deployed OpenCTI using Docker Compose
-- Verified service health and web access
-- Explored basic entities and dashboards
+- Deployed OpenCTI on an Ubuntu virtual machine using Docker.
+- Installed Docker & Docker compose.
+-  Configured threat intelligence connectors.
+-  Ingested threat data from AlienVault OTX.
+-  Explored threat entities such as indicators, reports, and threat actors.
+-  Studied MITRE ATT&CK mappings.
 
-## Notes
-This repository will be updated as I progress further into threat intelligence workflows.
+## Tools & Technology
+- OpenCTI
+- Docker & Docker Compose
+- Ubuntu Linux
+- AlienVault OTX
+- MITRE ATT&CK Framework
+
+## Repository Structure
+- **opencti-setup/** – Deployment notes and architecture overview
+- **threat-feeds/** – Documentation of intelligence sources
+- **intel-analysis/** – Sample analysis and reports
+- **resources/** – References and tools used during the sprint
+
+## Key Takeaways
+- Threat intelligence becomes valuable when indicators are properly contextualized.
+- Automation through connectors reduces manual intelligence handling.
+- Platforms like OpenCTI help SOC teams correlate data and improve detection workflows.
+
+ ## Status
+This repository reflects the Threat Intelligence sprint and will remain as a reference for future SOC and blue team work.

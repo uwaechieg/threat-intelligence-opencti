@@ -7,7 +7,7 @@ This repository documents my docker-based OpenCTI deployment on Ubuntu for threa
 - Docker & Docker Compose
 
 ## Overview
-OpenCTI is an open-source Threat Intelligence Platform used to centralize, correlate, and contextualize threat intelligence data. I ised OpenCTI to explore the fundamentals of cyber threat intelligence, including threat actors, indicators of compromise (IOCs), and intelligence platforms. The focus was on understanding how raw threat data is collected, structured, and transformed into actionable intelligence for security operations.
+OpenCTI is an open-source Threat Intelligence Platform used to centralize, correlate, and contextualize threat intelligence data. I used OpenCTI to explore the fundamentals of cyber threat intelligence, including threat actors, indicators of compromise (IOCs), and intelligence platforms. The focus was on understanding how raw threat data is collected, structured, and transformed into actionable intelligence for security operations.
 
 ## Setup Summary
 - Deployed OpenCTI on an Ubuntu virtual machine using Docker.

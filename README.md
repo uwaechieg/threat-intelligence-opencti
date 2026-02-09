@@ -2,6 +2,10 @@
 
 This repository documents my docker-based OpenCTI deployment on Ubuntu for threat intelligence analysis, IOC management, and MITRE ATT&CK mapping.
 
+## Quick Start
+For detailed installation steps, see:
+opencti-setup/installation-steps.md
+
 ## Environment
 - Ubuntu Linux (VM)
 - Docker & Docker Compose
@@ -17,7 +21,7 @@ OpenCTI is an open-source Threat Intelligence Platform used to centralize, corre
 -  Explored threat entities such as indicators, reports, and threat actors.
 -  Studied MITRE ATT&CK mappings.
 
-## Tools & Technology
+## Tools & Technologies
 - OpenCTI
 - Docker & Docker Compose
 - Ubuntu Linux
@@ -29,6 +33,12 @@ OpenCTI is an open-source Threat Intelligence Platform used to centralize, corre
 - **threat-feeds/** – Documentation of intelligence sources
 - **intel-analysis/** – Sample analysis and reports
 - **resources/** – References and tools used during the sprint
+
+## Results
+- Successfully deployed OpenCTI using Docker containers
+- Verified service health and platform accessibility
+- Ingested threat intelligence from AlienVault OTX
+- Explored indicators, reports, and MITRE ATT&CK mappings within the platform
 
 ## Key Takeaways
 - Threat intelligence becomes valuable when indicators are properly contextualized.
